@@ -1,0 +1,36 @@
+body{
+    background: #eeedec;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+  }
+  
+  .container{
+    max-width: 400px;
+    /* 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; */
+  }
+
+  .icon{
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -50px;
+  }
+
+  .futureWeather {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .card {
+    width: 250px;
+    margin: 5px 5px 25px 5px;
+  }
+  
+  .weatherConditions {
+    min-height: 50px;
+  }
